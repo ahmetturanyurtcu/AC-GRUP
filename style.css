@@ -1,0 +1,42 @@
+#logo {
+  transition: all 0.6s;
+}
+#logo:hover {
+  transform: scale(1.1);
+}
+.navbar {
+  border-bottom: 1px solid black;
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 999;
+  height: 5rem !important;
+}
+.nav-link {
+  color: black !important;
+  transition: all 0.5s;
+  font-weight: 500 !important;
+}
+
+.nav-link:hover {
+  color: brown !important;
+}
+
+#carouselExampleDark {
+  display: flex !important;
+  height: calc(100vh - 5rem) !important;
+}
+
+hr {
+  color: brown !important;
+}
+
+.footer {
+  background-color: #555;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
