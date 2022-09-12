@@ -9,7 +9,6 @@
   position: sticky !important;
   top: 0px !important;
   z-index: 999;
-  height: 5rem !important;
 }
 .nav-link {
   color: black !important;
@@ -23,7 +22,9 @@
 
 #carouselExampleDark {
   display: flex !important;
-  height: calc(100vh - 5rem) !important;
+}
+.carousel-item {
+  max-height: calc(100vh - 5rem) !important;
 }
 
 hr {
